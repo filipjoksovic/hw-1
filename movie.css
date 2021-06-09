@@ -1,0 +1,143 @@
+/* Css fajl glavne stranice */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("images/background.png");
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+header>h1 {
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 3px 3px 2px #999999;
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 55%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.content {
+    display: flex;
+    background-color: #EEEEEE;
+}
+
+.content-main {
+    width: 90%;
+}
+
+.content-sidebar {
+    width: 30%;
+    background-color: #A2B964;
+}
+
+.content-sidebar>img {
+    width: 100%;
+    display: block;
+}
+
+.rating {
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    padding: 0px;
+}
+
+.rating>span {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    vertical-align: bottom;
+}
+
+.quotebubble {
+    padding: 1em;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: #CCCCCC;
+    width: 90%;
+}
+
+.quotebubble>img {
+    margin-right: 5px;
+}
+
+.critic {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.critic-info {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.critic-info>img {
+    float: left;
+}
+
+.publication {
+    font-style: italic;
+    font-size: 13pt;
+}
+
+q {
+    vertical-align: super;
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidebar-info {
+    padding: 15px;
+    font-weight: bold;
+}
+
+dl,
+dt,
+dd {
+    margin-left: revert;
+}
+
+dd {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.links {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+#linkList {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #A2B964;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+}
+
+#w3c {
+    float: right;
+}
